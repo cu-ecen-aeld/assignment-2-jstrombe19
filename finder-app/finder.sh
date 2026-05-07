@@ -39,6 +39,7 @@ filecnt=0
 linecnt=0
 
 filecount() {
+    filecnt=$(find $filesdir -type f | wc -l)
     linecnt=$(grep -nR "${searchstr}" $filesdir/* | wc -l)
 }
 
