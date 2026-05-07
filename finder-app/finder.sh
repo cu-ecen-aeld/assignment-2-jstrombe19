@@ -47,7 +47,7 @@
 
 if [ $# != 2 ]
 then 
-    echo "Must provide a path to a directory on the filesystem and a text string to be searched within the files at that location."
+    echo "Must provide a path to a directory on the filesystem and a text string to be recursively searched within the files at that location."
     echo " ./finder.sh <path> <string>"
     exit 1
 fi
