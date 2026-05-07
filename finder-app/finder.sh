@@ -23,7 +23,27 @@
 
 #        finder.sh /tmp/aesd/assignment1 linux
 
+# TESTING
+# zebra
+# zebrA
+# Zebra
+# zebra zebra
+# zebra
+
+################################################################################
+#
+##########                         REFERENCES                         ##########
+#
+#
+# https://www.geeksforgeeks.org/linux-unix/grep-command-in-unixlinux/
+# https://stackoverflow.com/questions/10574794/how-to-list-only-files-and-not-directories-of-a-directory-bash
+################################################################################
+
+
 # 01:06:22 - 06 MAY 2026
+# 01:14:37 - 07 MAY 2026
+
+
 
 if [ $# != 2 ]
 then 
