@@ -25,8 +25,12 @@ fi
 filesdir=$1
 searchstr=$2
 
+filecnt=0
+linecnt=0
+
 if [ -d $filesdir ]
 then
+    echo "The number of files are ${filecnt} and the number of matching lines are ${linecnt}"
     exit 0
 else
     echo "The path provided is not a directory."
