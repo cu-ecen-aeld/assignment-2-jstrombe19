@@ -22,7 +22,10 @@ then
     exit 1
 fi
 
-if [ -d $1 ]
+filesdir=$1
+searchstr=$2
+
+if [ -d $filesdir ]
 then
     exit 0
 else
