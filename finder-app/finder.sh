@@ -14,6 +14,7 @@
 
 #        finder.sh /tmp/aesd/assignment1 linux
 
+# 01:06:22 - 06 MAY 2026
 
 if [ $# != 2 ]
 then 
