@@ -28,8 +28,13 @@ searchstr=$2
 filecnt=0
 linecnt=0
 
+filecount() {
+    ls -R1 $filesdir | [ -d ]
+}
+
 if [ -d $filesdir ]
 then
+    filecount
     echo "The number of files are ${filecnt} and the number of matching lines are ${linecnt}"
     exit 0
 else
