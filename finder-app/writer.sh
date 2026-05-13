@@ -30,6 +30,7 @@
 #
 #
 # https://stackoverflow.com/questions/33416877/setting-ifs-for-a-single-statement
+# https://stackoverflow.com/questions/1527049/how-can-i-join-elements-of-a-bash-array-into-a-delimited-string
 # https://stackoverflow.com/questions/8247433/remove-the-last-element-from-an-array
 # 
 ################################################################################
