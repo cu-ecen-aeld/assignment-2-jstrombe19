@@ -48,12 +48,12 @@ else
     writefile=$1
     writestr=$2
     IFS=/ arr=($writefile)
-    echo ${arr[@]}
+    # echo ${arr[@]}
     filename=${arr[-1]}
-    echo $filename
+    # echo $filename
 
     unset arr[-1]
-    echo ${arr[@]}
+    # echo ${arr[@]}
 
     join_by ${arr[@]} | xargs mkdir -p
     
